@@ -15,7 +15,7 @@ export function Avatar(props) {
   });
   const group = useRef();
   const { nodes, materials } = useGLTF(
-    "https://models.readyplayer.me/6586dd15d403021b672dc18b.glb"
+    "https://models.readyplayer.me/65897ecb14f9f5f28e625109.glb"
   );
 
   const { animations: typingAnimation } = useFBX("animations/Typing.fbx");
@@ -129,4 +129,4 @@ export function Avatar(props) {
   
 }
 
-useGLTF.preload("https://models.readyplayer.me/6586dd15d403021b672dc18b.glb");
+useGLTF.preload("https://models.readyplayer.me/65897ecb14f9f5f28e625109.glb");
